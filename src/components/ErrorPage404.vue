@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center align-items-center vh-100 ">
+    <div class="d-flex justify-content-center align-items-center ubicacion">
         <div class="d-flex justify-content-center flex-column align-items-center">
             <router-link to="/" class="router-link"><span>Inicio</span></router-link>
             <img :src="imagenError" alt="Pagina no encontrada" class="movil" />
@@ -24,6 +24,10 @@
  </script>
  
 <style scoped>
+
+.ubicacion{
+    min-height: 100vh;
+}
 
 .router-link {
     text-decoration: none; /* Elimina la línea subrayada */

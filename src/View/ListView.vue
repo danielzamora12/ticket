@@ -1,11 +1,11 @@
 <template>
-  <crud></crud>
+  <List></List>
 </template>
 
 <script>
-import Crud from '@/components/Crud.vue'
+import List from '@/components/List.vue'
 export default {
-  components: { Crud },
+  components: { List },
 
 }
 </script>
