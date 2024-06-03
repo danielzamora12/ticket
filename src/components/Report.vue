@@ -30,7 +30,7 @@
                 <div class="col-md-6">
                     <label for="unidad" class="form-label">Unidad</label>
                     <input type="text" class="form-control" id="unidad" v-model="form.unidad"
-                        placeholder="Unidad que reporta" required>
+                        placeholder="Unidad que reporta:" required>
                 </div>
                 <div class="col-md-6">
                     <label for="sistema" class="form-label">Sistema</label>
