@@ -1,13 +1,13 @@
-<template>
-      <TopNarBar></TopNarBar>
-      <router-view/>
 
+<template>
+      <router-view/>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
+
+   name: 'App',
 
   data: () => ({
     //

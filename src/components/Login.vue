@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="d-flex justify-content-center align-items-center ubicacion">
         <div class="bg-white p-5 rounded-5 text-secondary shadow movil"  >
             <div class="d-flex justify-content-center">
                 <img :src="imagenLogo" alt="login-icon" style="height: 12rem" />
@@ -61,6 +61,10 @@ computed:{
 </script>
 
 <style scoped>
+
+.ubicacion{
+    min-height: 100vh;
+}
 
 .router-link {
     text-decoration: none; /* Elimina la línea subrayada */

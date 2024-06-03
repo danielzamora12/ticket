@@ -18,9 +18,24 @@ const routes = [
     component: () => import(/* webpackChunkName: "ErrorPage" */ '../View/ErrorPageView.vue')
   },
   {
-    path: '/Usuarios',
-    name: 'Usuarios',
-    component: () => import(/* webpackChunkName: "Report" */ '../View/CrudView.vue')
+    path: '/Create',
+    name: 'Crear',
+    component: () => import(/* webpackChunkName: "CrearUsuarios" */ '../View/CreateView.vue')
+  },
+  {
+    path: '/List',
+    name: 'Listar',
+    component: () => import(/* webpackChunkName: "ListarUsuarios" */ '../View/ListView.vue')
+  },
+  {
+    path: '/Edit/:usuarios_id',
+    name: 'Editar',
+    component: () => import(/* webpackChunkName: "EditarUsuarios" */ '../View/EditView.vue')
+  },
+  {
+    path: '/Navbar',
+    name: 'Navegacion',
+    component: () => import(/* webpackChunkName: "Navegacion" */ '../View/NavbarView.vue')
   }
 ]
 
